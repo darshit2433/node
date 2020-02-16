@@ -10,3 +10,9 @@ function otherFuntion(fn) {
 }
 
 otherFuntion(greet);
+
+greetMe = function() {
+  console.log("hi 2");
+};
+
+greetMe();

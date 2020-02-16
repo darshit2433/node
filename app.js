@@ -1,5 +1,8 @@
-var a = 1;
-var b = 2;
-var c = a + b;
+var module = require("./02_module");
 
-console.log(c);
+module();
+// var a = 1;
+// var b = 2;
+// var c = a + b;
+
+// console.log(c);
