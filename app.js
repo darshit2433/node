@@ -1,8 +1,13 @@
 var module = require("./02_module");
+var objectLitral = require("./03_objectLitral");
+var prototype = require("./04_prototype");
+var iife = require("./05_IIFEANDScope");
+var properModule = require("./06_module");
+//module();
+//objectLitral.fullName();
+// prototype();
 
-module();
-// var a = 1;
-// var b = 2;
-// var c = a + b;
+// iife();
 
-// console.log(c);
+properModule.english();
+properModule.spanish();
